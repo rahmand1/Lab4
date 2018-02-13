@@ -1,0 +1,11 @@
+﻿@model List<string>
+
+<h2>@ViewData["Header"]</h2>
+<div>
+    <ul class="list-group list-group-flush">
+        @foreach (var item in Model)
+        {
+            <li class="list-group-item">@item</li>
+        }
+    </ul>
+</div>

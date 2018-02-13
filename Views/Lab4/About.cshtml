@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Lab4.Models.Profile>
+
+<h2>About</h2>
+
+<div>
+    <h4>Select the number of profiles to display: </h4>
+    <a href="@Url.Action("About/1", "Lab4")" class="btn btn-sm btn-info">1</a>
+    <a href="@Url.Action("About/2", "Lab4")" class="btn btn-sm btn-info">2</a>
+    <a href="@Url.Action("About/3", "Lab4")" class="btn btn-sm btn-info">3</a>
+    <a href="@Url.Action("About/4", "Lab4")" class="btn btn-sm btn-info">4</a>
+    <a href="@Url.Action("About/5", "Lab4")" class="btn btn-sm btn-info">5</a>
+</div>
+
+@foreach (var Item in Model)
+{
+    <div class="container bootstrap snippet">
+        <div class="profile card">
+            <div class="profile-body">
+                <div class="profile-bio">
+                    <div class="row">
+                        <div class="col-md-5 text-center">
+                            <img class="img-thumbnail md-margin-bottom-10" src="https://bootdey.com/img/Content/user-453533-fdadfd.png" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <h2>@Item.Name</h2>
+                            <span><strong>Email:</strong>@Item.Email</span>
+                            <hr>
+                            <p>@Item.Bio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    <p><a class="btn btn-info" href="@Url.Action("Page3", "Lab4")">Page 3</a></p>
+</div>

@@ -1,0 +1,11 @@
+C:\Users\Deanna\Downloads\Lab 4\Lab4\bin\Debug\netcoreapp2.0\Lab4.deps.json
+C:\Users\Deanna\Downloads\Lab 4\Lab4\bin\Debug\netcoreapp2.0\Lab4.runtimeconfig.json
+C:\Users\Deanna\Downloads\Lab 4\Lab4\bin\Debug\netcoreapp2.0\Lab4.runtimeconfig.dev.json
+C:\Users\Deanna\Downloads\Lab 4\Lab4\bin\Debug\netcoreapp2.0\Lab4.dll
+C:\Users\Deanna\Downloads\Lab 4\Lab4\bin\Debug\netcoreapp2.0\Lab4.pdb
+C:\Users\Deanna\Downloads\Lab 4\Lab4\obj\Debug\netcoreapp2.0\Lab4.csprojResolveAssemblyReference.cache
+C:\Users\Deanna\Downloads\Lab 4\Lab4\obj\Debug\netcoreapp2.0\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\Deanna\Downloads\Lab 4\Lab4\obj\Debug\netcoreapp2.0\Lab4.AssemblyInfoInputs.cache
+C:\Users\Deanna\Downloads\Lab 4\Lab4\obj\Debug\netcoreapp2.0\Lab4.AssemblyInfo.cs
+C:\Users\Deanna\Downloads\Lab 4\Lab4\obj\Debug\netcoreapp2.0\Lab4.dll
+C:\Users\Deanna\Downloads\Lab 4\Lab4\obj\Debug\netcoreapp2.0\Lab4.pdb

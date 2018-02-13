@@ -1,0 +1,11 @@
+@model System.DateTime
+
+
+@{
+    ViewData["Title"] = "Lab4";
+}
+
+<h1>Good @ViewData["TimeofDay"]!</h1>
+<h3>The time is: @ViewData["Time"] on @ViewData["Date"]</h3>
+<p>There are @ViewData["TimeSpan"] left until 2019!</p>
+<a class="btn btn-info" href="@Url.Action("About", "Lab4")">Page 2</a>
